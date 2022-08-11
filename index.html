@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <title>Love Paws</title>
+    
+</head>
+<body>
+    
+    <header>
+        <div id="container-logo">
+        <img id="logoDaPagina" src="./src/img/pet/lovecompata.png">
+        <h2 id="complementoDoLogo">Paws</h2>
+    </div>
+        <nav>      
+            <ul id="sessaoDeBotoes">
+            <li data-tag="Todos" id="bt_1">Todos</li>
+            <li data-tag="Acessórios" id="bt_2">Acessórios</li>
+            <li data-tag="Ração" id="bt_3">Ração</li>
+            <li data-tag="Brinquedos" id="bt_4">Brinquedos</li>
+        </ul> 
+        </nav>
+    </header>
+    
+    <main>
+<section id="sectionPai">
+<ul id="vitrine">
+</ul>
+</section>
+    <aside>
+        <div id="botao_e_input">
+        <input type="text" id="textoDoInput" placeholder="Digite aqui sua Pesquisa">
+        <button id="botaoPesquisar">Pesquisar</button>
+    </div>
+        
+        <div id="logoCarrinhoDeCompras">Carrinho de Compras</div>
+    <ul id="ulCarrinho">
+        <h3 id = "textoDoCarrinho">Carrinho Vazio</h3>
+           <p id="textoAdicionar">Adicione itens</p>
+    </ul>
+            <div id="divContadora">
+                <p id="pDiv1">Quantidade:<span id="contadorQuantidade">0</span></p>
+                <p id="pDiv2">Valor:<span id="contadorPreco">R$: 0</span></p>
+            </div>
+    </aside>
+    
+</main>
+    <script src="./src/js/db.js"></script>
+    <script src="./src/js/vitrine.js"></script>
+    <script src="./src/js/renderCart.js"></script>
+    <script src="./src/js/carrinho.js"></script>
+    <script src="./src/js/filter.js"></script>
+    
+
+</body>
+</html>
